@@ -3,7 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 const HeroSection = () => {
   return (
@@ -36,29 +35,13 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
             I'm a Full-Stack Software Engineer with a foundation in Aeronautical
             Engineering, adept in JavaScript frameworks, Python, and serverless
             architectures. Agile and adept, I am driven by a passion for
             comprehensive development, from responsive frontends to robust
             backends, fostering web accessibility, and cohesive design systems
           </p>
-          <div>
-            <Link
-              href="/contact"
-              className="inline-block w-full px-6 py-3 mr-4 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200"
-            >
-              Hire Me
-            </Link>
-            <Link
-              href="/"
-              className="inline-block w-full px-1 py-1 mt-3 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
-          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

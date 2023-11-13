@@ -24,8 +24,8 @@ const TAB_DATA = [
     id: 'education',
     content: (
       <ul className="pl-2 list-disc">
-        <li>Codeworks</li>
-        <li>Aerospace Engineering, Hindustan University</li>
+        <li>Full Stack Software Engineering Bootcamp, Codeworks (2020)</li>
+        <li>Aerospace Engineering, Hindustan University (2009-2013)</li>
       </ul>
     ),
   },
