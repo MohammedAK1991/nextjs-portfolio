@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
@@ -16,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="mb-4 text-4xl font-extrabold text-white sm:text-5xl lg:text-8xl lg:leading-normal">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{' '}
+              Hello, I'm
             </span>
             <br></br>
             <TypeAnimation
