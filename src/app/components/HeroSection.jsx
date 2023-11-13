@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
-            I'm a Full-Stack Software Engineer with a foundation in Aeronautical
+            Im a Full-Stack Software Engineer with a foundation in Aeronautical
             Engineering, adept in JavaScript frameworks, Python, and serverless
             architectures. Agile and adept, I am driven by a passion for
             comprehensive development, from responsive frontends to robust
